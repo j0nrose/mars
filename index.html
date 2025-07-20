@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Explorer - Journey to the Red Planet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Mars Explorer</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Mars</a></li>
+                <li><a href="#missions">Missions</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Welcome to Mars</h2>
+                <p class="hero-subtitle">Discover the mysteries of the Red Planet</p>
+                <button class="cta-button">Explore Now</button>
+            </div>
+            <div class="mars-animation">
+                <div class="planet mars"></div>
+                <div class="orbit">
+                    <div class="satellite"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Mars</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>Physical Characteristics</h3>
+                        <p>Mars is the fourth planet from the Sun, known for its distinctive red appearance caused by iron oxide on its surface. It has a diameter of approximately 6,792 kilometers.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Atmosphere</h3>
+                        <p>The Martian atmosphere is thin and composed primarily of carbon dioxide, with traces of nitrogen and argon. Surface pressure is less than 1% of Earth's.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Surface Features</h3>
+                        <p>Mars features the largest volcano in the solar system, Olympus Mons, and a massive canyon system called Valles Marineris that stretches across the planet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="missions" class="missions">
+            <div class="container">
+                <h2>Mars Missions</h2>
+                <div class="mission-timeline">
+                    <div class="mission-item">
+                        <div class="mission-year">2021</div>
+                        <div class="mission-content">
+                            <h3>Perseverance Rover</h3>
+                            <p>NASA's most advanced Mars rover, searching for signs of ancient microbial life and collecting rock samples.</p>
+                        </div>
+                    </div>
+                    <div class="mission-item">
+                        <div class="mission-year">2018</div>
+                        <div class="mission-content">
+                            <h3>InSight Lander</h3>
+                            <p>Studying the interior structure of Mars through seismic monitoring and heat flow measurements.</p>
+                        </div>
+                    </div>
+                    <div class="mission-item">
+                        <div class="mission-year">2012</div>
+                        <div class="mission-content">
+                            <h3>Curiosity Rover</h3>
+                            <p>Exploring Gale Crater and analyzing Martian soil and rock samples to understand past habitability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Mars Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">Olympus Mons</div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">Valles Marineris</div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">Polar Ice Caps</div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">Dust Storms</div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">Rover Tracks</div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-placeholder">Sunset on Mars</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Mission Control</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mars Explorer. Journey to the Red Planet.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
